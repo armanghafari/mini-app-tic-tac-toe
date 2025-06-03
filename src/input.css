@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.transform-center{
+    transform: translate(-50%, -50%);
+}
+
+.button-option{
+    background-color: #ffffff;
+    height: 22vmin;
+    width: 22vmin;
+    border-radius: 8px;
+    font-size: 15vmin;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hide{
+    display: none;
+}

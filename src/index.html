@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="output.css">
-    <title>Document</title>
+    <title>tic tac toe</title>
 </head>
-<body>
+<body class="bg-violet-800">
+    <div class="wrapper top-1/2 left-1/2 transform-center absolute">
+        <div class="container w-[70vmin] h-[70vmin] grid grid-cols-3 gap-[2vmin]">
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+            <button class="button-option"></button>
+        </div>
+        <button id="restart" class=" bg-black text-white relative block my-[1em] mx-auto p-2 rounded-lg sm:p-4 sm:text-[1em] md:px-9">Restart</button>
+    </div>
+    <div class="popup hide bg-violet-800 h-full w-full absolute flex items-center justify-center flex-col gap-[1em] text-[12vmin] z-10 font-mono">
+        <p id="message" class="text-white font-semibold">sample message</p>
+        <button id="new-game" class="text-[0.6em] bg-black text-white py-[0.5em] px-[1em] rounded-lg">new game</button>
+    </div>
     
 </body>
 </html>
